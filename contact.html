@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact</title>
-<link rel="stylesheet" href="portofolio.css">
+  <title>Portfolio Landing Page</title>
+  <link rel="stylesheet" href="portofolio.css">
 </head>
+
+
 <body>
-    <section id="contact" class="normal-section">
-      <div class="container">
-        <h2>CONTACT ME</h2>
-        <p>Tertarik dengan porto saya? Silahkan hubungi saya</p>
-        <form id="contactForm">
-          <div class="form-group">
-            <label for="name">Nama</label>
-            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
-          </div>
-          <div class="form-group">
-            <label for="message">Pesan</label>
-            <textarea id="message" name="message" rows="6" placeholder="Tulis pesan Anda..." required></textarea>
-          </div>
-          <button type="submit">Kirim Pesan</button>
-          <p id="statusMessage"></p>
-        </form>
+    <header>
+    <div class="nav-container">
+
+      <h2 class="logo">H&M</h2>
+
+      <button id="hamburger">☰</button>
+
+      <nav id="nav-menu">
+        <a href="home.html">Home</a>
+        <a href="article.html">Article</a>
+        <a href="contact.html">Contact</a>
+        <a href="aboutme.html">About Me</a>
+      </nav>
+
+    </div>
+  </header>
+  <section id="about" class="parallax bg-2">
+    <div class="content">
+      <h2>Tentang saya</h2>
+      <div class="gallery">
+        <figure>
+          <img src="gambar1.png" width="180px" alt="">
+          <figcaption>Saya adalah orang yang sangat suka belajar hal baru dan orang yang sangat pekerja keras, dan saya
+            meyakini </figcaption>
+        </figure>
+
       </div>
-    </section>
+    </div>
+  </section>
 </body>
+<footer>
+  <p> &copy; Portofolio Hudi Mahmudi</p>
+</footer>
+
 </html>
